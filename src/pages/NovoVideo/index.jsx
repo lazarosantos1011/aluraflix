@@ -134,8 +134,8 @@ const NovoVideo = () => {
                         </div>
                         <div className="form-section__right">
                             <OptionList
-                                clase={`new-video__form-input new-video__form-option ${errors.category && touchedFields.category ? 'error-label' : ''}`}
-                                clase2='new-video__dropdown-option'
+                                classe={`new-video__form-input new-video__form-option ${errors.category && touchedFields.category ? 'error-label' : ''}`}
+                                classe2='new-video__dropdown-option'
                                 value={formData.category}
                                 onChange={(e) => {
                                     handleChange({ target: { name: 'category', value: e.target.value } });
