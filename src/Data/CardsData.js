@@ -1,0 +1,85 @@
+
+const cardsData = [
+    {
+        id: 1,
+        title: "Como testar seu Front-end? com Mario Souto | #HipstersPontoTube Pensar Como Programador",
+        category: "FRONT END",
+        photo: "https://img.youtube.com/vi/CaTbfdsVydE/mqdefault.jpg",
+        link: "https://www.youtube.com/embed/CaTbfdsVydE?si=VvIXBfSmdeWeLIyu",
+        description: "Por onde começar a testar as habilidades em Front-end? Se você tem dúvidas na hora de testar softwares e colocar em prática técnicas modernas, esse vídeo vai te ajudar. O @DevSoutinho compartilhou dicas pra você testar seu Front-end e como praticar testes desde funcionalidades simples até as mais avançadas. Confere aí e conta pra gente se você está testando suas habilidades nessa área e quais bibliotecas costuma usar ✌😉"
+    },
+    {
+        id: 2,
+        title: "Métricas para o Front End com Mario Souto | #HipstersPontoTube",
+        category: "FRONT END",
+        photo: "https://img.youtube.com/vi/iVNR-6v8lZU/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/iVNR-6v8lZU?si=HO4GAXN9JD4nDrMe",
+        description: "Você sabe quais métricas são importantes no Front-End? 🤔 Neste vídeo o Paulo Silveira e o @DevSoutinho batem um papo sobre as métricas que não podem ser esquecidas em um bom site. Se você tá começando a programar ou ainda não sabe quais métricas utilizar no dia a dia, confira o conteúdo e anota as dicas pra colocar em prática. E se você já tem utilizado no seu site métricas incríveis que impactam diretamente na performance, conta pra gente nos comentários, queremos saber 😉✌ ⚠ ERRATA: No mínuto 2:00, o correto é Sentry ao invés de Century."
+    },
+    {
+        id: 3,
+        title: "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+        category: "FRONT END",
+        photo: "https://img.youtube.com/vi/ZY3-MFxVdEw/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/ZY3-MFxVdEw?si=pUv4K770N46UOKuV",
+        description: "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!"
+    },
+    {
+        id: 4,
+        title: "O que é uma Single-Page Application? (SPA) #HipstersPontoTube",
+        category: "FRONT END",
+        photo: "https://img.youtube.com/vi/opxYpCKzlLk/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/opxYpCKzlLk?si=ycCmQwXmRWkoVvpM-",
+        description: "Mas afinal, o que é uma Single-Page Application? Você sabe a melhor forma e os melhores frameworks para construí-la? Assista as dicas e o bate-papo da Roberta Arcoverde e do Maurício Linhares no vídeo!"
+    },
+    {
+        id: 5,
+        title: "Engenheiro de software ou Programador? com Paulo Silveira | #HipstersPontoTube",
+        category: "BACK END",
+        photo: "https://img.youtube.com/vi/Gm6U-AxXEQ0/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/Gm6U-AxXEQ0?si=DOdmY_BJy0FZarrd",
+        description: "Engenheiro de software, pessoa que programa ou dev, o que você é? 🤔 Neste #HipstersPontoTube o Mario Souto e o Paulo Silveira discutem um assunto filosófico na comunidade: as diferenças entre essas três formações. Se você está começando e ainda não sabe a forma como atuam cada uma dessas áreas, confira o conteúdo! 😉 E agora é com você,  qual a função que está no seu crachá e LinkedIn?"
+    },
+    {
+        id: 6,
+        title: "JavaScript para back-end | Hipsters.Talks",
+        category: "BACK END",
+        photo: "https://img.youtube.com/vi/uyRDbGZG92E/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/uyRDbGZG92E?si=QxSh4IBDuKhAmpAN",
+        description: "Nesse episódio do Hipsters.Talks vamos conversar sobre a utilização de JavaScript para back-end e conhecer mais sobre sua aplicação no dia a dia de desenvolvimento."
+    },
+    {
+        id: 7,
+        title: "Simplificando tu código en Java: Conoce los enum",
+        category: "BACK END",
+        photo: "https://img.youtube.com/vi/imB0QVoNrGc/mqdefault.jpg",
+        link: "https://www.youtube.com/embed/imB0QVoNrGc?si=GlyrGQ_wX-tmnllm",
+        description: "Afinal, qual a melhor linguagem de programação e framework que deve ser estudado? Recebemos @Akitando para conversar sobre esse tópico tão discutido entre devs no mercado de tecnologia."
+    },
+    {
+        id: 8,
+        title: "Desmistificando Mobile - Por onde eu começo? #01",
+        category: "MOBILE",
+        photo: "https://img.youtube.com/vi/2z6f8VN_Pro/hqdefault.jpg",
+        link: "https://www.youtube.com/embed/2z6f8VN_Pro",
+        description: "A Websérie “Desmistificando o mobile” vêm aí para simplificar com exemplos práticos vários assuntos envolvendo o mundo dos aplicativos de celular e neste primeiro episódio vamos partir, literalmente, do começo, por onde começar a estudar sobre o mundo dos apps? Os instrutores da escola de mobile da Alura nos ajudam com essa tarefa 😉."
+    },
+    {
+        id: 9,
+        title: "Desenvolvimento Android #HipstersPontoTube",
+        category: "MOBILE",
+        photo: "https://img.youtube.com/vi/fWscDFHKgw8/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/fWscDFHKgw8?si=NKbS_eirM329ggHq",
+        description:"Um episódio focado no desenvolvimento de aplicações Android. Neste bate-papo, Paulo Silveira e Felipe Torres conversam sobre os primeiros passos para começar a desenvolver, quais as principais ferramentas do desenvolvimento mobile, como colocar sua aplicação no ar e mais!"
+    },
+    {
+        id: 10,
+        title: "Desenvolvimento iOS com Giovanna Moeller | #HipstersPontoTube",
+        category: "MOBILE",
+        photo: "https://img.youtube.com/vi/4AH9H_dx_7g/maxresdefault.jpg",
+        link: "https://www.youtube.com/embed/4AH9H_dx_7g?si=5ZvIMcYFVckps1E8",
+        description: "Você ainda tem dúvidas sobre como começar a evoluir em iOS? 🤔 Quais os próximos passos? Quais os padrões de projeto? A Giovanna Moeller conta sua experiência para o Mario Souto em um bate papo super legal sobre seu desenvolvimento na área de mobile e iOS 📲"
+    }
+];
+
+export default cardsData;
